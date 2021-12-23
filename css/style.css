@@ -1,0 +1,163 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width:100%;
+}
+
+.header{
+    width:100%;
+    text-align: center;
+    padding:18px 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    margin-bottom:2px;
+}
+
+.container{
+    width:100%;
+    height:550px;
+    padding:40px 30px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container .left{
+    width:70%;
+    height:100%;
+}
+
+.container .left .lefttop{
+    display: flex;
+}
+
+.container .left .lefttop .icon{
+    padding-top:10px;
+    box-sizing: border-box;
+}
+
+.container .left .lefttop .para1{
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+.container .left .lefttop .para1 h1{
+    margin-bottom:10px;
+    color: #d33131;
+    font-size: 21px;
+}
+
+.container .left .lefttop .para1 p{
+    color: #555353;
+    font-size: 13px;
+}
+
+.container .left .leftbottom{
+    padding-top:40px;
+    box-sizing: border-box;
+}
+
+.container .left .leftbottom .para2{
+    padding-bottom:20px;
+    box-sizing: border-box;
+    color:#555353;
+    font-size: 13px;
+}
+
+.container .left .leftbottom .para3{
+    color:#555353;
+    font-size: 13px;
+}
+
+.container .left .leftbottom .para3 a{
+    color: #d33131;
+}
+
+.container .left .leftbottom .list{
+    padding-top:40px;
+}
+
+.container .left .leftbottom .list h1{
+    margin-bottom:10px;
+    color: #d33131;
+    font-size: 21px;
+}
+
+.container .left .leftbottom .list .list-item ul{
+    margin-left:30px;
+    padding:0px;
+    list-style-image: url('../images/bullet.png');
+}
+
+.container .left .leftbottom .list .list-item ul li{
+    padding:5px 0px;
+    box-sizing: border-box;
+}
+
+.container .right{
+    width:30%;
+    height:100%;
+}
+
+.container .right .box{
+    width:239px;
+    height:314px;
+    background-color:#eddfba;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.container .right .box .imgbox{
+   width:209px;
+   height:130px;
+   background-image: url('../images/newfood.png');
+}
+
+.container .right .box .textbox h3{
+   color:#d33131;
+   font-size: 15px;
+   margin-bottom:7px;
+}
+
+.container .right .box .textbox p{
+    color:#555353;
+    font-size: 12px;
+ }
+
+ .footer{
+     width:100%;
+     height:99px;
+     background-color:#3c3838;
+     border-top:5px solid #c4c3c3;
+     text-align: center;
+ }
+
+  .footertext ul{
+     margin-bottom:20px;
+     padding:0px;
+     list-style: none;
+ }
+
+  .footertext ul li{
+    display: inline-block !important;
+}
+
+ .footertext ul li a{
+    text-decoration: none;
+    font-size:13px;
+    padding:2px 5px;
+    border-right:1px solid white;
+    color:white;
+}
+
+.footer p{
+    color:white;
+    font-size: 10px;
+}
